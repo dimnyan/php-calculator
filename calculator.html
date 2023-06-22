@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    
+    <form method="post" action="calculator.php">
+        <label for="number1">Number 1:</label>
+        <input type="number" name="number1" id="number1" required><br>
+        
+        <label for="number2">Number 2:</label>
+        <input type="number" name="number2" id="number2" required><br>
+        
+        <label for="operator">Operator:</label>
+        <select name="operator" id="operator" required>
+            <option value="+">Addition</option>
+            <option value="-">Subtraction</option>
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+        </select><br>
+        
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
